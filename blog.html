@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css" >
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Glozzom</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="about-banner">
+    <div class="container text-center py-5 text-white">
+      <h1>Read Our Blog</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, aspernatur?</p> <br>
+    </div>
+   </div>
+
+   <div class="blog-section my-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <img src="./img/carousel1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="card-body">
+               <h3>Blog Post One</h3>
+               <h6 class="border-bottom py-3">Written by jeff on 05/20</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate laboriosam mollitia blanditiis aliquam assumenda aliquid maxime, sunt illum impedit cum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <img src="./img/carousel2.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="card-body">
+               <h3>Blog Post Two</h3>
+               <h6 class="border-bottom py-3">Written by jeff on 05/22</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate laboriosam mollitia blanditiis aliquam assumenda aliquid maxime, sunt illum impedit cum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <img src="./img/carousel1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="card-body">
+               <h3>Blog Post Theree</h3>
+               <h6 class="border-bottom py-3">Written by jeff on 05/23</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate laboriosam mollitia blanditiis aliquam assumenda aliquid maxime, sunt illum impedit cum.</p>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+   </div>
+
+   <div class="blog-section my-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus iusto vitae in delectus incidunt, hic quidem voluptate non. Explicabo?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body bg-danger text-white">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus iusto vitae in delectus incidunt, hic quidem voluptate non. Explicabo?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus iusto vitae in delectus incidunt, hic quidem voluptate non. Explicabo?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Glozzom</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/popper.js"></script>
+  <script src="vendors/js/bootstrap.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+  </script>
+</body>
+
+</html>
